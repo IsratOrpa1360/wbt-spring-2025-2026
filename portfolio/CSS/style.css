@@ -1,16 +1,12 @@
-/* Selector {
 
-    Property: value;
-
-} */
- 
-/* 1 - Heading h2 */
 
 h2 {
 
-    color: #1a1a1a; /* dark gray */
+    color: #1a1a1a;
+    
 
-    text-align: left; /* left-aligned now */
+    text-align: left;
+   
 
     border: 2px dashed rgba(100, 100, 255, 0.3);
 
@@ -21,20 +17,19 @@ h2 {
     border-radius: 10px;
 
 }
- 
-/* 2 - Paragraphs */
+
+
 
 p {
 
     color: #333;
 
-    text-align: justify; /* justified text for readability */
-
+    text-align: justify;
     line-height: 1.6;
 
 }
- 
-/* 3 - Body background */
+
+
 
 body {
 
@@ -43,8 +38,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
- 
-/* 4 - List items (navigation) */
+
 
 li {
 
@@ -55,8 +49,8 @@ li {
     margin: 0 15px;
 
 }
- 
-/* 5 - h2 and p group style */
+
+
 
 h2,
 
@@ -75,8 +69,7 @@ p {
     border-radius: 8px;
 
 }
- 
-/* 6 - Webtext paragraphs */
+
 
 .webtext {
 
@@ -89,8 +82,7 @@ p {
     background-color: rgba(240, 255, 240, 0.3);
 
 }
- 
-/* 7 - Active webtext */
+
 
 .active {
 
@@ -99,8 +91,8 @@ p {
     font-weight: bold;
 
 }
- 
-/* 8 - Div backgrounds */
+
+
 
 #div1 {
 
@@ -113,7 +105,7 @@ p {
     margin-bottom: 20px;
 
 }
- 
+
 #div2 {
 
     background-color: rgba(144, 238, 144, 0.3);
@@ -123,55 +115,38 @@ p {
     border-radius: 10px;
 
 }
- 
-/* 9 - Remove previous universal right-align (do not use * selector) */
- 
-/* 10 - Navigation Bar Style */
 
-/*header nav {
 
-    background-color: #1a1a1a;
 
-    text-align: center;
-
+nav {
     padding: 15px 0;
-
-    border-radius: 10px;
-
-}*/
- 
-header nav ul {
-
-    padding: 0;
-
-    margin: 0;
-
 }
- 
-header nav ul li a {
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     text-decoration: none;
-
     color: #333333;
- 
-
     font-weight: bold;
-
     padding: 10px 20px;
-
     transition: 0.3s;
-
     border-radius: 5px;
-
 }
- 
-header nav ul li a:hover {
 
+nav ul li a:hover {
     background-color: #4caf50;
-
+    color: white;
 }
- 
-/* 11 - Table styling */
+
 
 table {
 
@@ -183,11 +158,10 @@ table {
 
     border-radius: 15px;
 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 
 }
- 
-/* 12 - Image styling */
+
 
 img {
 
@@ -201,9 +175,8 @@ img {
 
     object-fit: cover;
 
-    border-radius: 20px; /* rounded corners, can change to 50% for circle */
+    border-radius: 20px;
 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 }
- 
