@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Uppercase Demo</title>
+ 
+    <style>
+          span {
+            color: red;
+        }
+    </style>
+</head>
+ 
+ 
+<body>
+ 
+ 
+    <div class="section">
+ 
+        <h2>Username Input</h2>
+ 
+        <form id="usernameForm" novalidate>
+ 
+            <div class="input-group">
+                <label for="username">Username<span>*</span></label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+ 
+        </form>
+ 
+    </div>
+ 
+    </div>
+ 
+ 
+    <script>
+ 
+        const usernameInput = document.getElementById('username');
+ 
+ 
+        usernameInput.addEventListener('input', function () {
+ 
+            usernameInput.value = usernameInput.value.toUpperCase();
+ 
+        });
+ 
+    </script>
+ 
+</body>
+ 
+</html> 

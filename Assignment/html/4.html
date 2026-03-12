@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-image:
+                linear-gradient(#ddd 1px, transparent 1px),
+                linear-gradient(90deg, #ddd 1px, transparent 1px);
+            background-size: 10px 10px;
+        }
+
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            position: relative;
+            margin: 50px;
+        }
+
+        .box {
+            width: 80px;
+            height: 40px;
+            border: 2px solid black;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            text-align: center;
+            line-height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        Container Area
+        <div class="box">Bottom Right</div>
+    </div>
+
+    <p>Container: 300px × 200px → 30 × 20 grid squares</p>
+    <p>Small box positioned 10px from bottom and right</p>
+
+</body>
+
+</html>
